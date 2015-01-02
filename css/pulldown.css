@@ -1,0 +1,36 @@
+nav {
+    width: 960px;
+    margin: 100px auto 0px;
+    font-size: 16px;
+}
+
+.js-pulldownTrigger {
+    width: 240px;
+    float: left;
+    position: relative;
+}
+
+.js-pulldownTrigger > a,
+.js-pulldownMenu a {
+    display: block;
+    background: #26a8d8;
+    color: #fff;
+    text-align: center;
+    height: 40px;
+    line-height: 40px
+}
+
+
+.js-pulldownTrigger > a:hover,
+.js-pulldownMenu a:hover {
+    background: #83d7f5;
+}
+
+.js-pulldownMenu {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    top: 100%;
+    height: 0%;
+    overflow: hidden;
+}
